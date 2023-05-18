@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-section {
+  display: block;
+  width: 90%;
+  max-width: 30rem;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 5%;
+  background-color: #fff;
+}
+.main-section .illustration {
+  width: 100%;
+  max-width: 30rem;
+  height: 30%;
+  border-radius: 5% 5% 0 0;
+}
+.main-section .content-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-section .content-article .main-header {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  color: hsl(224, 23%, 55%);
+}
+.main-section .content-article .paragraph {
+  display: block;
+  font-size: 1.6rem;
+  margin: 0 2rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.main-section .content-article .annual-plan {
+  margin: 2rem 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+}
+.main-section .content-article .annual-plan .price-per-year {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-section .content-article .annual-plan .price-per-year .music-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.main-section .content-article .annual-plan .price-per-year .subscription .second-header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+.main-section .content-article .annual-plan .price-per-year .subscription .price {
+  font-size: 1.2rem;
+  color: hsl(224, 23%, 55%);
+}
+.main-section .content-article .annual-plan .change-subscription {
+  color: hsl(245, 75%, 52%);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.main-section .content-article .annual-plan .change-subscription:hover {
+  color: rgb(105, 64, 254);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.main-section .content-article .proceed-payment {
+  width: 90%;
+  display: block;
+  margin: 1rem auto;
+  padding: 1.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 0px 14px 7px -2px hsl(245, 100%, 95%);
+  cursor: pointer;
+}
+.main-section .content-article .proceed-payment:hover {
+  background-color: rgb(105, 64, 254);
+  transition: 0.3s;
+}
+.main-section .content-article .cancel-order {
+  display: block;
+  width: 90%;
+  margin: 2rem auto 3rem;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.main-section .content-article .cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+  transition: 0.3s;
+}
+
+.attribution {
+  margin: 7rem auto;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 90%;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
